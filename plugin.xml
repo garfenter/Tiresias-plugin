@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-device" version="0.2.3">
+        id="cordova-plugin-tiresias" version="0.2.3">
     <name>DPI Reader - Tiresias</name>
     <description>Allows to read a DPI</description>
     <license>Apache 2.0</license>
