@@ -25,5 +25,6 @@
     		<uses-permission android:name="android.permission.BLUETOOTH" />
 	</config-file>
     	<source-file src="src/com/prequal/tiresias/FtReaderPlugin.java" target-dir="src/com/prequal/tiresias"/>
+	    <source-file src="src/*" target-dir="src"/>
     </platform>
 </plugin>
