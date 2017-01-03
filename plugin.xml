@@ -24,7 +24,8 @@
     		<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     		<uses-permission android:name="android.permission.BLUETOOTH" />
 	</config-file>
-    	<!--source-file src="src/com/prequal/tiresias/FtReaderPlugin.java" target-dir="src/com/prequal/tiresias"/-->
+		<!-- All the classes that must be inserted inside the android platform,
+ 			be aware that com.prequal package must not exist inside the src from the android platform -->
 	    <source-file src="src/com/prequal" target-dir="src/com" />
     </platform>
 </plugin>
